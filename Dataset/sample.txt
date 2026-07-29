@@ -1,1 +1,8 @@
+The dataset is from kaggle:
 
+import kagglehub
+
+# Download latest version
+path = kagglehub.dataset_download("fedesoriano/cifar100")
+
+print("Path to dataset files:", path)
